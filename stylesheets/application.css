@@ -6313,10 +6313,10 @@ tbody.collapse.in {
 
 #logo{
 
-  margin: 18px;
+  margin: 14px;
   float: left;
   width: 200px;
-  height: 40px;
+  height: 29px;
   display: block;
 
 }
@@ -6324,7 +6324,7 @@ tbody.collapse.in {
 .topmenu nav {
 
   float: right;
-  padding: 16px;  
+  padding: 6px;
   padding-right: 35px;
 }
 
