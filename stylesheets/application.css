@@ -1147,7 +1147,7 @@ body {
   font-size: 17px;
   line-height: 1.42857;
   color: #696f6f;
-  background-color: white;
+  background-color: rgb(26,26,26);
 }
 body.sign-in-up {
   background: #2e2f41 url(../images/bg-1.png) 0 0 no-repeat fixed;
@@ -3647,7 +3647,6 @@ tbody.collapse.in {
 .jumbotron {
   margin-bottom: 0;
   color: white;
-  background: #2e2f41 url(../images/bg-1.png) 0 0 no-repeat;
   background-size: cover;
   text-align: center;
 }
