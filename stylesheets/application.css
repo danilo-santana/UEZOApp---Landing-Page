@@ -1147,7 +1147,7 @@ body {
   font-size: 17px;
   line-height: 1.42857;
   color: #696f6f;
-  background-color: rgb(26,26,26);
+  background-color: white;
 }
 body.sign-in-up {
   background: #2e2f41 url(../images/bg-1.png) 0 0 no-repeat fixed;
@@ -3645,8 +3645,10 @@ tbody.collapse.in {
 }
 
 .jumbotron {
+  padding: 30px 0;
   margin-bottom: 0;
   color: white;
+  background: #2e2f41 url(../images/bg-1.png) 0 0 no-repeat;
   background-size: cover;
   text-align: center;
 }
@@ -3667,10 +3669,10 @@ tbody.collapse.in {
 }
 .jumbotron .container {
   max-width: 970px;
-  padding-top: 140px;
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
+    padding-top: 100px;
     padding-bottom: 100px;
   }
   .container .jumbotron {
@@ -6301,21 +6303,22 @@ tbody.collapse.in {
 
 .topmenu {
 
-  position: fixed;
-  background: transparent;
+  background: #3498DB;
   width: 100%;
-  height: 60px;
+  height: 76px;
   border-bottom: 1px solid grey;
   z-index: 100;
 
 }
 
+
+
 #logo{
 
-  margin: 14px;
+  margin: 18px;
   float: left;
   width: 200px;
-  height: 29px;
+  height: 40px;
   display: block;
 
 }
@@ -6323,18 +6326,17 @@ tbody.collapse.in {
 .topmenu nav {
 
   float: right;
-  padding: 6px;
+  padding: 16px;  
   padding-right: 35px;
 }
 
 .topmenu nav ul li a{
 
-  padding: 7px;
+  padding: 10px;
   background-color: #FF4656;
   color: white;
   border: 1px solid #fcf8e3;
   border-radius: 1px;
-  font-size: 14px;
 }
 
 ul {
@@ -6404,8 +6406,32 @@ footer span{
   color: white;
 }
 
-.callback{
-  width: 100%; 
-  height: 60px;
-  color: transparent;
+/* -====================================================================== */
+
+@media (max-width: 500px) {
+  .topmenu{
+    background: #3498DB;
+    min-width: 100%;
+    height: 76px;
+    border-bottom: 1px solid grey;
+    padding: 17px;
+}
+
+.topmenu nav {
+  float: right;
+  padding: 16px;
+  padding-right: 35px;
+  display: none;
+  visibility: hidden;
+}
+
+#logo {
+  margin: 18px;
+  float: none;
+  width: 200px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+}
+
 }
